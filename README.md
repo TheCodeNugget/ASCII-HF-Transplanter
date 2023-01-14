@@ -17,9 +17,11 @@ The goal is to allow enable versioning of heightmaps and/or allow multiple terra
 hfcarrier.py [fromfile] [tofile] [coords] [-o --output output]
 ```  
 
-| Parameter | Function | Format | Default | |
-| ---- | ----- | ---- | ---- | ---- |
-| fromfile | path of the file to cut from | ./file.asc | |
-| tofile | path of the file to paste to | ./file.asc | |
-| coods | Bottom Right and Top Left coordinates of the area to be transfered | brx,bry,trx,try | |
+| Parameter | Function | Format | Default | 
+| ---- | ----- | ---- | ---- |
+| fromfile | path of the file to cut from | ./file.asc | 
+| tofile | path of the file to paste to | ./file.asc | 
+| coods | Bottom Right and Top Left coordinates of the area to be transfered | brx,bry,trx,try | 
 | -o, --output | path and filename of output file | ./file.asc | ./out.asc |
+
+Of Note: The coordinates used should be taken from Terrain Builder
